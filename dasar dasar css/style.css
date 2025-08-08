@@ -1,0 +1,70 @@
+body {
+    background-color: #F0F0F0;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(to right, violet,pink,red); */
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 75px;
+}
+
+.id {
+    text-decoration: none;
+    /* color: antiquewhite; */
+    color: black;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.main {
+    height: 60vh;
+    justify-content: space-between;
+}
+
+.img {
+    float: left;
+    margin-right: 100px; 
+    border-radius: 50%;
+    height: 300px;
+    
+}
+
+.profile {
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.profile h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 200px;
+    margin-left: 43vw;
+}
+ 
+.contact {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
